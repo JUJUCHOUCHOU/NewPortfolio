@@ -1,0 +1,18 @@
+:root{
+  --DarkBlue-:#14213D;
+  --Blue-: #003566;
+  --Yellow-: #FCA311;
+  --LightGrey-: #E5E5E5;
+}
+* {
+  font-family: 'Montserrat', sans-serif, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
