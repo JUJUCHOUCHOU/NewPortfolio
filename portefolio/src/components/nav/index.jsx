@@ -10,12 +10,14 @@ function Nav() {
 
   return (
     <nav className={`navbar ${mobileMenuOpen ? 'mobile-menu-open' : ''}`}>
-      <div className="logo">Julie Cohen</div>
+      <div className="logo">
+        <h1 className='df'>Julie Cohen</h1>
+      </div>
       <ul className={`nav-links ${mobileMenuOpen ? 'mobile-menu' : ''}`}>
-        <li><a href="#a-propos">À propos</a></li>
-        <li><a href="#mes-services">Mes services</a></li>
-        <li><a href="#competences">Compétences</a></li>
-        <li><a href="#travaux">Travaux</a></li>
+        <li><a className='mtt' href="#a-propos">À propos</a></li>
+        <li><a className='mtt' href="#mes-services">Mes services</a></li>
+        <li><a className='mtt' href="#competences">Compétences</a></li>
+        <li><a className='mtt' href="#travaux">Travaux</a></li>
       </ul>
       <div className="hamburger" onClick={toggleMobileMenu}>
         <div className="line"></div>
